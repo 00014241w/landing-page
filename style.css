@@ -120,3 +120,15 @@ section.gray {
     color: #3b0d02;
     padding-top: 10px;
 }
+
+footer {
+    background-color: #662706;
+    display: flex;
+    justify-content: center;
+}
+footer > p {
+    color: wheat;
+    margin: 0;
+    padding: 10px;
+    font-size: 10px;
+}
