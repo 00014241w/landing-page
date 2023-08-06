@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.header {
+    background-color: #5f5364;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.header h3 {
+    margin: 0px;
+    color: white;
+    font-size: 24px;
+    vertical-align: center;
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+.nav li > a{
+    color: #f1e3e4;
+    text-decoration: none;
+}
+.nav li > a:hover {
+    color: #ccbcbc;
+    text-decoration: underline;
+}
