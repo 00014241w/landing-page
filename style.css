@@ -32,7 +32,7 @@ body {
 
 section.blue {
     height: 400px;
-    background-image: url('bookshelf-bg.png');
+    background-image: url('images/bookshelf-bg.png');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +67,7 @@ section.blue {
 }
 
 section.white{
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,4 +98,25 @@ section.white{
 .fav div, img {
     border-radius: 10px;
     box-shadow: 0 0 10px #9c9c9c;
+}
+
+section.gray {
+    background-color: #f5e1d7;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30%;
+    text-align: right;
+}
+.quote {
+    color: #4d2a16;
+    font-style: italic;
+    font-size: 20px;
+}
+.author {
+    font-size: 15px;
+    font-weight: 700;
+    color: #3b0d02;
+    padding-top: 10px;
 }
